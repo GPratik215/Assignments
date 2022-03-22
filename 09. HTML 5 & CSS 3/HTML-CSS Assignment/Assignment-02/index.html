@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Pratik's Form</title>
+</head>
+<body>
+
+    <h1>This is a form</h1>
+
+    <form>
+
+        <label for="Username"> Enter Your Username </label>
+        <input type="text" id="Username" name="Username" placeholder="Write Here">
+
+        <br>
+        <br>
+
+        <label for="Email"> Enter Your Email </label>
+        <input type="email" id="Email" name="Email" placeholder="Write Here" required >
+
+        <br>
+        <br>
+
+        <label for="Password"> Enter Your Password</label>
+        <input type="password" id="Password" name="Password"placeholder="Write Here">
+
+        <p><b>Select Your Age</b></p>
+
+        <input type="radio" name="Age" value="0-25" id="Option1">
+        <label for="Option1">0-25</label>
+        
+        <input type="radio" name="Age" value="26-30" id="Option2">
+        <label for="Option2">26-30</label>
+        
+        <input type="radio" name="Age" value="30-50" id="Option3">
+        <label for="Option3">30-50</label>
+
+        <input type="radio" name="Age" value="50+" id="Option4">
+        <label for="Option4">50+</label>
+        
+        <input type="radio" name="Age1" value="0-50" id="Option5">
+        <label for="Option5">0-50</label>
+
+        <br> <br>
+
+        <label for="Question">Answer this Security Question</label>
+
+        <select name="Question" id="Question">
+
+            <option value="Q1"> Whats Your Favourite Colour?</option>
+            <option value="Q2"> Whats Your Favourite Show on Netflix?</option>
+            <option value="Q3"> Who is Your Idol?</option>
+            <option value="Q4"> What is Your Goal in Life?</option>
+
+        </select>
+
+            <br><br>
+
+            <label for="Answer">Type Your Answer</label>
+            <input type="text" id="Answer" name="Answer">
+
+            <br><br>
+
+
+        <label for="bio">Your Bio</label> <br> 
+        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Write Something About You"></textarea>
+        
+
+        <br><br>
+        <input type="submit" value="Submit The Form">
+
+
+
+    </form>
+    
+</body>
+</html>

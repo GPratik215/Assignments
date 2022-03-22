@@ -1,0 +1,38 @@
+{
+  "addList": [
+    {
+      "restaurantName": "Hotel D",
+      "ownerName": "KK",
+      "location": "Delhi",
+      "speciality": "Lunch",
+      "type": "Italian",
+      "id": 1
+    },
+    {
+      "restaurantName": "PG Restaurant",
+      "ownerName": "Pratik Gupta ",
+      "location": "Indore",
+      "speciality": "Family Restaurant ",
+      "type": "Chinese",
+      "id": 2
+    },
+    {
+      "restaurantName": "KK",
+      "ownerName": "Ramesh",
+      "location": "Nagpur ",
+      "speciality": "Family Restaurant ",
+      "type": "Indian",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
